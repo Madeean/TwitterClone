@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MainTabController: UITabBarController {
     // MARK: - PROPERTIES
@@ -28,9 +29,32 @@ class MainTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureViewControllers()
-        setColorTabBar()
-        configureUi()
+        view.backgroundColor = .twitterBlue
+//        logUserOut()
+        authenticationUserAndConfigureUI()
+    }
+    
+    // MARK: - API
+    func authenticationUserAndConfigureUI(){
+        if Auth.auth().currentUser == nil {
+            DispatchQueue.main.async{
+                let nav = UINavigationController(rootViewController: LoginController())
+                nav.modalPresentationStyle = .fullScreen
+                self.present(nav, animated: true, completion: nil)
+            }
+        }else {
+            configureViewControllers()
+            setColorTabBar()
+            configureUi()
+        }
+    }
+    
+    func logUserOut(){
+        do {
+            try Auth.auth().signOut()
+        } catch let error {
+            print("debug error logout \(error.localizedDescription)")
+        }
     }
 
     // MARK: - HELPERS
