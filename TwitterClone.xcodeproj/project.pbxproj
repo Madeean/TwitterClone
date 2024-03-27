@@ -11,6 +11,7 @@
 		8003DEF82BB306E500001DAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003DEF72BB306E500001DAF /* User.swift */; };
 		8003DEFB2BB3091C00001DAF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8003DEFA2BB3091C00001DAF /* SDWebImage */; };
 		8003DEFD2BB3091C00001DAF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8003DEFC2BB3091C00001DAF /* SDWebImageMapKit */; };
+		8003DF252BB328BA00001DAF /* UploadTweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003DF242BB328BA00001DAF /* UploadTweetController.swift */; };
 		804475842BAF11B7000D1F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804475832BAF11B7000D1F8E /* AppDelegate.swift */; };
 		804475862BAF11B7000D1F8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804475852BAF11B7000D1F8E /* SceneDelegate.swift */; };
 		8044758D2BAF11B7000D1F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8044758C2BAF11B7000D1F8E /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		804475AB2BAF3144000D1F8E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804475AA2BAF3144000D1F8E /* LoginController.swift */; };
 		804475AD2BAF31B1000D1F8E /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804475AC2BAF31B1000D1F8E /* RegisterController.swift */; };
 		804475AF2BAF589E000D1F8E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804475AE2BAF589E000D1F8E /* Utilities.swift */; };
+		805F504D2BB4610400009147 /* CaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F504C2BB4610400009147 /* CaptionTextView.swift */; };
 		806CCD412BB1B768000EB879 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806CCD402BB1B768000EB879 /* Constants.swift */; };
 		806CCD432BB1C84F000EB879 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806CCD422BB1C84F000EB879 /* AuthService.swift */; };
 		80DC052B2BB0738500655ABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80DC052A2BB0738400655ABC /* GoogleService-Info.plist */; };
@@ -56,6 +58,7 @@
 /* Begin PBXFileReference section */
 		8003DEF52BB303FC00001DAF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = TwitterClone/Utils/UserService.swift; sourceTree = SOURCE_ROOT; };
 		8003DEF72BB306E500001DAF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = TwitterClone/Utils/User.swift; sourceTree = SOURCE_ROOT; };
+		8003DF242BB328BA00001DAF /* UploadTweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetController.swift; sourceTree = "<group>"; };
 		804475802BAF11B7000D1F8E /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804475832BAF11B7000D1F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804475852BAF11B7000D1F8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		804475AA2BAF3144000D1F8E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		804475AC2BAF31B1000D1F8E /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		804475AE2BAF589E000D1F8E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		805F504C2BB4610400009147 /* CaptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptionTextView.swift; path = TwitterClone/Controller/CaptionTextView.swift; sourceTree = SOURCE_ROOT; };
 		806CCD402BB1B768000EB879 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		806CCD422BB1C84F000EB879 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = TwitterClone/Utils/AuthService.swift; sourceTree = SOURCE_ROOT; };
 		80DC052A2BB0738400655ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 		804475982BAF11DF000D1F8E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				805F504C2BB4610400009147 /* CaptionTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				804475A12BAF14DA000D1F8E /* ExploreController.swift */,
 				804475A32BAF14FF000D1F8E /* NotificationsController.swift */,
 				804475A52BAF1518000D1F8E /* ConversationsController.swift */,
+				8003DF242BB328BA00001DAF /* UploadTweetController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -316,12 +322,14 @@
 			files = (
 				8003DEF62BB303FC00001DAF /* UserService.swift in Sources */,
 				804475A82BAF2807000D1F8E /* Extensions.swift in Sources */,
+				805F504D2BB4610400009147 /* CaptionTextView.swift in Sources */,
 				804475AD2BAF31B1000D1F8E /* RegisterController.swift in Sources */,
 				804475AF2BAF589E000D1F8E /* Utilities.swift in Sources */,
 				804475842BAF11B7000D1F8E /* AppDelegate.swift in Sources */,
 				804475A62BAF1518000D1F8E /* ConversationsController.swift in Sources */,
 				804475A02BAF148B000D1F8E /* FeedController.swift in Sources */,
 				806CCD432BB1C84F000EB879 /* AuthService.swift in Sources */,
+				8003DF252BB328BA00001DAF /* UploadTweetController.swift in Sources */,
 				8003DEF82BB306E500001DAF /* User.swift in Sources */,
 				8044759E2BAF12A6000D1F8E /* MainTabController.swift in Sources */,
 				804475A42BAF14FF000D1F8E /* NotificationsController.swift in Sources */,
