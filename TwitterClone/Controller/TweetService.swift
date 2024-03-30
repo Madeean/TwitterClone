@@ -29,7 +29,7 @@ class TweetService {
             UserService.shared.fetchUser(uid: uid) { user in
                 let tweet = Tweet(user:user, tweetID: tweetID, dictionary: dictionary )
                 tweets.append(tweet)
-                completion(tweets)
+                completion(tweets.reversed())
             }
         }
     }
