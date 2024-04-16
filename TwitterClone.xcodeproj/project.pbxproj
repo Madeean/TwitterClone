@@ -58,6 +58,7 @@
 		80DC05582BB073FB00655ABC /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 80DC05572BB073FB00655ABC /* FirebaseRemoteConfigSwift */; };
 		80DC055A2BB073FB00655ABC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 80DC05592BB073FB00655ABC /* FirebaseStorage */; };
 		80DC055C2BB073FB00655ABC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 80DC055B2BB073FB00655ABC /* FirebaseStorageCombine-Community */; };
+		80E16EE92BCEF90100E1BA5E /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E16EE82BCEF90100E1BA5E /* ProfileHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		807AE5B72BB5553400D8F173 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = TwitterClone/Controller/Tweet.swift; sourceTree = SOURCE_ROOT; };
 		807AE5B92BB561C600D8F173 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TweetCell.swift; path = TwitterClone/Controller/TweetCell.swift; sourceTree = SOURCE_ROOT; };
 		80DC052A2BB0738400655ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80E16EE82BCEF90100E1BA5E /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileHeader.swift; path = TwitterClone/Controller/ProfileHeader.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				805F504C2BB4610400009147 /* CaptionTextView.swift */,
 				807AE5B92BB561C600D8F173 /* TweetCell.swift */,
+				80E16EE82BCEF90100E1BA5E /* ProfileHeader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				804475842BAF11B7000D1F8E /* AppDelegate.swift in Sources */,
 				804475A62BAF1518000D1F8E /* ConversationsController.swift in Sources */,
 				806015B82BB7EFBF0046FBF1 /* ProfileController.swift in Sources */,
+				80E16EE92BCEF90100E1BA5E /* ProfileHeader.swift in Sources */,
 				807AE5BA2BB561C600D8F173 /* TweetCell.swift in Sources */,
 				804475A02BAF148B000D1F8E /* FeedController.swift in Sources */,
 				806CCD432BB1C84F000EB879 /* AuthService.swift in Sources */,
