@@ -42,7 +42,7 @@ class MainTabController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .twitterBlue
-//        logUserOut()
+//        logUserOut() 
         authenticationUserAndConfigureUI()
     }
     

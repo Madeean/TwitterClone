@@ -35,6 +35,7 @@
 		807AE5B62BB54F4D00D8F173 /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AE5B52BB54F4D00D8F173 /* TweetService.swift */; };
 		807AE5B82BB5553400D8F173 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AE5B72BB5553400D8F173 /* Tweet.swift */; };
 		807AE5BA2BB561C600D8F173 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AE5B92BB561C600D8F173 /* TweetCell.swift */; };
+		8093D5182BD11FE300C633E7 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093D5172BD11FE300C633E7 /* ProfileHeaderViewModel.swift */; };
 		80DC052B2BB0738500655ABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80DC052A2BB0738400655ABC /* GoogleService-Info.plist */; };
 		80DC052E2BB073FB00655ABC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 80DC052D2BB073FB00655ABC /* FirebaseAnalytics */; };
 		80DC05302BB073FB00655ABC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 80DC052F2BB073FB00655ABC /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -92,6 +93,7 @@
 		807AE5B52BB54F4D00D8F173 /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TweetService.swift; path = TwitterClone/Controller/TweetService.swift; sourceTree = SOURCE_ROOT; };
 		807AE5B72BB5553400D8F173 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = TwitterClone/Controller/Tweet.swift; sourceTree = SOURCE_ROOT; };
 		807AE5B92BB561C600D8F173 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TweetCell.swift; path = TwitterClone/Controller/TweetCell.swift; sourceTree = SOURCE_ROOT; };
+		8093D5172BD11FE300C633E7 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileHeaderViewModel.swift; path = ViewModel/ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		80DC052A2BB0738400655ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80E16EE82BCEF90100E1BA5E /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileHeader.swift; path = TwitterClone/Controller/ProfileHeader.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				806015B52BB7E80B0046FBF1 /* TweetViewModel.swift */,
+				8093D5172BD11FE300C633E7 /* ProfileHeaderViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				807AE5BA2BB561C600D8F173 /* TweetCell.swift in Sources */,
 				804475A02BAF148B000D1F8E /* FeedController.swift in Sources */,
 				806CCD432BB1C84F000EB879 /* AuthService.swift in Sources */,
+				8093D5182BD11FE300C633E7 /* ProfileHeaderViewModel.swift in Sources */,
 				8003DF252BB328BA00001DAF /* UploadTweetController.swift in Sources */,
 				8003DEF82BB306E500001DAF /* User.swift in Sources */,
 				8044759E2BAF12A6000D1F8E /* MainTabController.swift in Sources */,
